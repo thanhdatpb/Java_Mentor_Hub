@@ -1,0 +1,27 @@
+# Development profile - PostgreSQL on Docker
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/javamentorhub
+    username: postgres
+    password: postgres
+    driver-class-name: org.postgresql.Driver
+
+  jpa:
+    hibernate:
+      ddl-auto: validate  # Flyway handles schema, Hibernate only validates
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+
+  flyway:
+    enabled: true
+    baseline-on-migrate: true
+    locations: classpath:db/migration
+
+logging:
+  level:
+    com.thanhdatpb.javamentorhub: DEBUG
+    org.springframework.security: DEBUG
+    org.hibernate.SQL: DEBUG

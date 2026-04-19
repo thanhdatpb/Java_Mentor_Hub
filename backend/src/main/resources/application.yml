@@ -1,0 +1,22 @@
+spring:
+  application:
+    name: java-mentor-hub
+  profiles:
+    active: dev
+
+server:
+  port: 8080
+
+# JWT Configuration
+jwt:
+  secret: ${JWT_SECRET:ThisIsADefaultDevSecretKeyThatMustBeChangedInProductionAndMustBeAtLeast256BitsLong!}
+  expiration: ${JWT_EXPIRATION:86400000}  # 24 hours in milliseconds
+
+# Springdoc OpenAPI (Swagger)
+springdoc:
+  api-docs:
+    path: /v3/api-docs
+  swagger-ui:
+    path: /swagger-ui.html
+    tags-sorter: alpha
+    operations-sorter: method
