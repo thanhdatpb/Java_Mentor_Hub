@@ -16,6 +16,9 @@ frontend/.env.local
 *.swp
 *.swo
 *.iml
+.agent/
+.claude/
+.codex/
 
 # ===== OS =====
 .DS_Store
