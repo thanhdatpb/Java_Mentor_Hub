@@ -82,7 +82,7 @@ Java_Mentor_Hub/
 
 ## 👤 Author
 
-**Trần Thành Đạt** — Java Backend Developer
+**Trần Thành Đạt** 
 
 - 🎓 Khoa Công nghệ thông tin, Trường Đại học Khoa học, Đại học Huế
 - 🏃 Runner · Photo Freelance · Learner · Software Engineer
