@@ -18,7 +18,7 @@ Java Mentor Hub is a personal platform built to:
 - 🎯 **Practice interview questions** — question bank with difficulty levels (Intern → Senior)
 - 📊 **Track learning progress** — completion percentage per topic
 - 💻 **Solve assignments** — coding exercises from easy to hard
-- 👤 **About me** — introducing myself as a Java Backend Developer
+- 👤 **About me** — introducing myself as a Java Software Engineer
 
 ---
 
@@ -76,25 +76,16 @@ Java_Mentor_Hub/
 ├── backend/          # Spring Boot REST API
 ├── frontend/         # React + Vite
 ├── docker-compose.yml
-└── IMPLEMENTATION_PLAN.md
+└── README.md
 ```
 
----
-
-## 📋 Implementation Plan
-
-See detailed architecture, database design, API endpoints, and development roadmap:
-
-👉 [**IMPLEMENTATION_PLAN.md**](./IMPLEMENTATION_PLAN.md)
-
----
 
 ## 👤 Author
 
 **Trần Thành Đạt** — Java Backend Developer
 
 - 🎓 Khoa Công nghệ thông tin, Trường Đại học Khoa học, Đại học Huế
-- 🏃 Runner · Builder · Learner
+- 🏃 Runner · Photo Freelance · Learner · Software Engineer
 - 💼 [GitHub](https://github.com/thanhdatpb)
 - 🔗 [LinkedIn](https://linkedin.com/in/thanhdatpb)
 - 📧 Tthanhdat.pb@gmail.com
